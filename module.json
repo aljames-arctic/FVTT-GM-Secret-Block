@@ -10,8 +10,8 @@
   "styles": [
     "gm-secret-style.css"
   ],
-  "minimumCoreVersion": "0.7.6",
-  "compatibleCoreVersion": "0.7.9",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10.284",
 	"url": "https://github.com/dapregar/FVTT-GM-Secret-Block",
 	"manifest": "https://raw.githubusercontent.com/dapregar/FVTT-GM-Secret-Block/master/module.json",
 	"download": "https://github.com/dapregar/FVTT-GM-Secret-Block/archive/1.0.0.zip",
