@@ -1,21 +1,18 @@
 {
-  "name": "gm-secrets",
+  "id": "FVTT-GM-Secret-Block",
   "title": "GM Secret Block",
   "description": "Adds a type of formatting block to text editors that only GMs can see and edit.",
-  "version": "1.0.0",
-  "author": "Cole Schultz (cole#9640)",
-  "esmodules": [
-    "gm-secret.js"
+  "authors": [
+    {
+      "name": "Cole Schultz (cole#9640)"
+    },
+    {
+      "name": "Daniel Pérez (Grise)"
+    }
   ],
-  "styles": [
-    "gm-secret-style.css"
-  ],
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10.284",
-	"url": "https://github.com/dapregar/FVTT-GM-Secret-Block",
-	"manifest": "https://raw.githubusercontent.com/dapregar/FVTT-GM-Secret-Block/master/module.json",
-	"download": "https://github.com/dapregar/FVTT-GM-Secret-Block/archive/v.0.0.2-alpha.zip",
-	"license": "https://github.com/dapregar/FVTT-GM-Secret-Block/blob/v.0.0.2-alpha/LICENSE",
-	"readme": "https://github.com/dapregar/FVTT-GM-Secret-Block/blob/v.0.0.2-alpha/README.md",
-	"changelog": "https://github.com/dapregar/FVTT-GM-Secret-Block/blob/v.0.0.2-alpha/CHANGELOG.md"
-}
+  "version": "v.0.0.3-alpha",
+  "compatibility":{
+    "minimum": "10",
+    "verified": "10.284"
+  }
+ }
