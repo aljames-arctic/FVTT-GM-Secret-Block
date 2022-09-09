@@ -25,7 +25,7 @@ Hooks.on("ready", async () => {
 
         // If the user is a GM, add the "game-master" class to the tinyMCE iframe body.
         if (game.user.isGM) {
-            editor.dom.addClass("tinymce", "game-master");
+              $(editor.view.dom).addClass("tinymce", "game-master");
         }
 
         return editor;
@@ -33,11 +33,11 @@ Hooks.on("ready", async () => {
 
     // Wrap TextEditor.enrichHTML to remove GM secret sections if the user is not a GM
     const oldEnrichHTML = TextEditor.enrichHTML;
-    TextEditor.enrichHTML = function () {
+    TextEditor.enrichHTML = async function () {
         const content = oldEnrichHTML.apply(this, arguments);
 
         const html = document.createElement("div");
-        html.innerHTML = content;
+        html.innerHTML = await content;
 
         if (!game.user.isGM) {
             let elements = html.querySelectorAll("section.gm-secret");
