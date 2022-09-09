@@ -14,8 +14,8 @@
   "compatibleCoreVersion": "10.284",
 	"url": "https://github.com/dapregar/FVTT-GM-Secret-Block",
 	"manifest": "https://raw.githubusercontent.com/dapregar/FVTT-GM-Secret-Block/master/module.json",
-	"download": "https://github.com/dapregar/FVTT-GM-Secret-Block/archive/v.0.0.1-alpha.zip",
-	"license": "https://github.com/dapregar/FVTT-GM-Secret-Block/blob/v.0.0.1-alpha/LICENSE",
-	"readme": "https://github.com/dapregar/FVTT-GM-Secret-Block/blob/v.0.0.1-alpha/README.md",
-	"changelog": "https://github.com/dapregar/FVTT-GM-Secret-Block/blob/v.0.0.1-alpha/CHANGELOG.md"
+	"download": "https://github.com/dapregar/FVTT-GM-Secret-Block/archive/v.0.0.2-alpha.zip",
+	"license": "https://github.com/dapregar/FVTT-GM-Secret-Block/blob/v.0.0.2-alpha/LICENSE",
+	"readme": "https://github.com/dapregar/FVTT-GM-Secret-Block/blob/v.0.0.2-alpha/README.md",
+	"changelog": "https://github.com/dapregar/FVTT-GM-Secret-Block/blob/v.0.0.2-alpha/CHANGELOG.md"
 }
