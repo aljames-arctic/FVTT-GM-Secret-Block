@@ -15,4 +15,10 @@
     "minimum": "10",
     "verified": "10.284"
   }
- }
+
+  "readme": "README.md",
+  "license": "UNLICENSED",
+  "download": "https://github.com/aljames-arctic/FVTT-GM-Secret-Block/zipball/master",
+  "manifest": "https://raw.githubusercontent.com/aljames-arctic/FVTT-GM-Secret-Block/main/module.json",
+  "url": "https://github.com/aljames-arctic/FVTT-GM-Secret-Block"
+}
